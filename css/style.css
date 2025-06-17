@@ -43,5 +43,21 @@ header {
 }
 
 footer {
-	background: grey;
+	color: #ffffff;
+	background-color: #333333;
+	height: 142px;
+}
+
+.small-text {
+	font-family: 'Open Sans', sans-serif;
+	;
+	font-size: 14px;
+}
+
+.footer {
+	width: 412px;
+	margin-top: 49px;
+	margin-bottom: 49px;
+	margin-left: auto;
+	margin-right: auto;
 }

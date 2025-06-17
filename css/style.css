@@ -50,7 +50,6 @@ footer {
 
 .small-text {
 	font-family: 'Open Sans', sans-serif;
-	;
 	font-size: 14px;
 }
 
@@ -74,10 +73,6 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	overflow: hidden;
 }
 
@@ -93,4 +88,29 @@ footer {
 .h3-about {
 	text-align: center;
 	margin: 20px 60px 60px;
+}
+
+#section-mosaic {
+	height: 100vh;
+	width: auto;
+	overflow: hidden;
+}
+
+.mosaic {
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.mosaic-img-1 {
+	background: url(../img/pexels-marta-dzedyshko-2067396.jpg);
+}
+
+.mosaic-img-2 {
+	background: url(../img/pexels-photo-4099237.jpeg);
+}
+
+.mosaic-img-3 {
+	background: url(../img/pexels-photo-949069.jpeg);
 }

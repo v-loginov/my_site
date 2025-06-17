@@ -1,0 +1,47 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body {
+	background: yellow;
+}
+
+#page-preview {
+	background: red;
+	width: 100%;
+}
+
+#page-preview.laptop {
+	background: red;
+	width: 1040px;
+}
+
+#page-preview.tablet {
+	background: red;
+	width: 820px;
+}
+
+#page-preview.h-phone {
+	background: red;
+	width: 640px;
+}
+
+#page-preview.phone {
+	background: red;
+	width: 440px;
+}
+
+header {
+	background: white;
+}
+
+.main {
+	background: lightgray;
+}
+
+footer {
+	background: grey;
+}

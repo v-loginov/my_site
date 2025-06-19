@@ -7,7 +7,6 @@
 
 body {
 	background: yellow;
-	overflow-x: hidden;
 }
 
 #page-preview {
@@ -68,13 +67,13 @@ footer {
 
 .parallax-container {
 
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg") !important;
-	background-attachment: fixed !important;
-	background-position: center !important;
-	background-repeat: no-repeat !important;
-	background-size: cover !important;
-	color: white !important;
-	overflow: hidden !important;
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	overflow: hidden;
 }
 
 #section-about {
@@ -83,12 +82,12 @@ footer {
 
 .h6-about {
 	text-align: center;
-	margin: 100px auto 0px auto;
+	margin: 100px 400px 0px 400px;
 }
 
 .h3-about {
 	text-align: center;
-	margin: 20px auto 60px auto;
+	margin: 20px 60px 60px;
 }
 
 #section-mosaic {
@@ -153,23 +152,30 @@ footer {
 }
 
 #section-collage {
-	height: 70vh ;
-	overflow: hidden ;
-	margin: 0px !important; 
-	padding: 0px !important;
-	box-sizing: border-box !important;
+	height: 70vh;
+	overflow: hidden;
 }
 
 .collage {
 	position: relative;
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
-	margin: 0px !important; 
-	padding: 0px !important;
-	box-sizing: border-box !important;
+	background-repeat: no-repeat !important;
 }
 
-.collage img {
-	object-fit: cover;
+.collage-img-1 {
+	
+	background: url(../img/restaurant-love-romantic-dinner.jpg);
+}
+
+.collage-img-2 {
+	background: url(../img/pexels-photo-5491337.jpeg);
+}
+
+.collage-img-3 {
+	background: url(../img/pexels-photo-2762942.jpeg);
+}
+
+.collage-img-4 {
+	background: url(../img/pexels-marta-dzedyshko-20673961.jpeg);
 }

@@ -114,3 +114,8 @@ footer {
 .mosaic-img-3 {
 	background: url(../img/pexels-photo-949069.jpeg);
 }
+
+#section-events {
+	height: 60vh;
+	overflow: hidden;
+}

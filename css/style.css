@@ -204,3 +204,11 @@ footer {
 	/* optional, for centering text horizontally */
 	color: rgb(255, 255, 255);
 }
+
+#section-contact {
+	overflow: hidden ;
+	margin: 0px !important; 
+	padding: 0px !important;
+	box-sizing: border-box !important;
+	background: #fff;
+}

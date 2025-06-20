@@ -34,13 +34,13 @@ document.getElementById('previewPhoneBtn').addEventListener('click', function (e
 
 $(window).on('scroll', function () {
     $('.count').each(function () {
-        var $this = $(this);
-        var rect = $this.get(0).getBoundingClientRect();
+        let $this = $(this);
+        let rect = $this.get(0).getBoundingClientRect();
         if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-            var targetNumber = parseInt($this.attr('data-target'));
+            let targetNumber = parseInt($this.attr('data-target'));
 
             $({ Counter: 0 }).animate({ Counter: targetNumber }, {
-                duration: 5000, // Animation duration in milliseconds
+                duration: 2000, // Animation duration in milliseconds
                 easing: 'swing', // Easing function (e.g., 'swing' or 'linear')
                 step: function () {
                     $this.text(Math.ceil(this.Counter));

@@ -173,3 +173,34 @@ footer {
 .collage img {
 	object-fit: cover;
 }
+
+.counter-count
+{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color: #000000;
+    text-align: center;
+}
+
+#section-counters {
+	height: 50vh ;
+	overflow: hidden ;
+	margin: 0px !important; 
+	padding: 0px !important;
+	box-sizing: border-box !important;
+	background: #fff;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	/* optional, for centering text horizontally */
+	color: rgb(255, 255, 255);
+}

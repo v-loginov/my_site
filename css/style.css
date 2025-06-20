@@ -64,6 +64,7 @@ footer {
 
 #section-parallax {
 	height: 100vh;
+	width: 100vw;
 }
 
 .parallax-container {
@@ -75,6 +76,10 @@ footer {
 	background-size: cover !important;
 	color: white !important;
 	overflow: hidden !important;
+}
+
+#img-logo {
+	margin: 110px 390px 0px;
 }
 
 #section-about {
@@ -211,4 +216,77 @@ footer {
 	padding: 0px !important;
 	box-sizing: border-box !important;
 	background: #fff;
+}
+
+.h1-font {
+	font-family: "Playfair Display", serif;
+	font-size: 60px;
+	font-weight: bold;
+	text-wrap: wrap;
+	margin: 120px 106px 0px;
+	overflow-wrap: break-word;
+}
+
+.casual-font {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	text-wrap: wrap;
+	overflow-wrap: break-word;
+}
+
+.h6-font {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	text-wrap: wrap;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 4px;
+	overflow-wrap: break-word;
+	color: rgb(17, 17, 17);
+
+}
+
+.h3-font-48 {
+	font-family: "Playfair Display", serif;
+	font-size: 48px;
+	text-wrap: wrap;
+	font-weight: 400;
+}
+
+.bold-h {
+	font-weight: 700;
+}
+
+.h3-font-24 {
+	font-family: "Playfair Display", serif;
+	font-size: 24px;
+	text-wrap: wrap;
+	font-weight: 700;
+}
+
+.bold-cursive {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.a-font {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	text-wrap: nowrap;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration-color: rgb(0, 0, 0);
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-thickness: auto;
+	color: rgb(0, 0, 0);
+}
+
+.calend-font {
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
+	text-wrap: nowrap;
+	font-weight: 700;
+	color: rgb(17, 17, 17);
 }
